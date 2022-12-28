@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: Column(children: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+            padding: const EdgeInsets.only(top: 25.0, left: 20, right: 20),
             child: Column(
               children: [
                 //greetings row
